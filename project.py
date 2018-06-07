@@ -4,8 +4,6 @@ from selenium.webdriver.common.keys import Keys
 import os
 
 
-os.system('color 4f')
-
 driver = webdriver.Firefox()
 
 driver.get("https://github.com/login")
